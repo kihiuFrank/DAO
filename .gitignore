@@ -10,6 +10,15 @@ coverage
 coverage.json
 typechain
 
+#Hardhat files
+cache
+artifacts
+proposals.json
+.notes.md
+typechain-types
+gas-report.txt
+deployments
+
 # don't push the environment vars!
 .env
 
