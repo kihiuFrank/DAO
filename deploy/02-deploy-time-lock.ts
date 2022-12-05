@@ -1,6 +1,5 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types"
 import { DeployFunction } from "hardhat-deploy/dist/types"
-import { parseArgs } from "util"
 import { networkConfig, MIN_DELAY } from "../helper-hardhat-config"
 import { network } from "hardhat"
 
