@@ -18,3 +18,4 @@ const deployTimeLock: DeployFunction = async (hre: HardhatRuntimeEnvironment) =>
 }
 
 export default deployTimeLock
+deployTimeLock.tags = ["all", "timelock"]

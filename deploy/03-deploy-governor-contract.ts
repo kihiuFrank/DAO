@@ -33,3 +33,4 @@ const governorContract: DeployFunction = async (hre: HardhatRuntimeEnvironment) 
 }
 
 export default governorContract
+governorContract.tags = ["all", "governor"]
